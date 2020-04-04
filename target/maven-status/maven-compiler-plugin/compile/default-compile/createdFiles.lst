@@ -1,0 +1,3 @@
+pageObjects\LoginPage.class
+resources\Base.class
+pageObjects\LandingPage.class

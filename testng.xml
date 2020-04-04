@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.codenbox.MavenProject.ValidTitleTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Validating NavigationBar">
+		<classes>
+			<class name="com.codenbox.MavenProject.NavigationBarTest" />
+		</classes>
+	</test>
+	<test name="Validating login">
+		<classes>
+			<class name="com.codenbox.MavenProject.LoginPageTest" />
+		</classes>
+	</test>
+
+
+
+</suite> <!-- Suite -->
