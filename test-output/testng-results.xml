@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54212" started-at="2020-04-05T01:14:05Z" finished-at="2020-04-05T01:14:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14713" started-at="2020-04-05T01:14:05Z" finished-at="2020-04-05T01:14:20Z">
+      <class name="com.codenbox.MavenProject.ValidTitleTest">
+        <test-method status="PASS" signature="basePageTitle()[pri:0, instance:com.codenbox.MavenProject.ValidTitleTest@b62fe6d]" name="basePageTitle" duration-ms="14393" started-at="2020-04-05T01:14:05Z" finished-at="2020-04-05T01:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codenbox.MavenProject.ValidTitleTest@b62fe6d]" name="tearDown" is-config="true" duration-ms="253" started-at="2020-04-05T01:14:20Z" finished-at="2020-04-05T01:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.codenbox.MavenProject.ValidTitleTest -->
+    </test> <!-- Test -->
+    <test name="Validating NavigationBar" duration-ms="18246" started-at="2020-04-05T01:14:20Z" finished-at="2020-04-05T01:14:38Z">
+      <class name="com.codenbox.MavenProject.NavigationBarTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.codenbox.MavenProject.NavigationBarTest@501edcf1]" name="initialize" is-config="true" duration-ms="13909" started-at="2020-04-05T01:14:20Z" finished-at="2020-04-05T01:14:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigationBar()[pri:0, instance:com.codenbox.MavenProject.NavigationBarTest@501edcf1]" name="basePageNavigationBar" duration-ms="84" started-at="2020-04-05T01:14:34Z" finished-at="2020-04-05T01:14:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigationBar -->
+        <test-method status="PASS" signature="dropDownSelect()[pri:0, instance:com.codenbox.MavenProject.NavigationBarTest@501edcf1]" name="dropDownSelect" duration-ms="4151" started-at="2020-04-05T01:14:34Z" finished-at="2020-04-05T01:14:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownSelect -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codenbox.MavenProject.NavigationBarTest@501edcf1]" name="tearDown" is-config="true" duration-ms="93" started-at="2020-04-05T01:14:38Z" finished-at="2020-04-05T01:14:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.codenbox.MavenProject.NavigationBarTest -->
+    </test> <!-- Validating NavigationBar -->
+    <test name="Validating login" duration-ms="21214" started-at="2020-04-05T01:14:38Z" finished-at="2020-04-05T01:14:59Z">
+      <class name="com.codenbox.MavenProject.LoginPageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.codenbox.MavenProject.LoginPageTest@6a01e23]" name="initialize" is-config="true" duration-ms="13502" started-at="2020-04-05T01:14:38Z" finished-at="2020-04-05T01:14:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.codenbox.MavenProject.LoginPageTest@6a01e23]" name="basePageNavigation" duration-ms="7499" started-at="2020-04-05T01:14:52Z" data-provider="getData" finished-at="2020-04-05T01:14:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.codenbox.MavenProject.LoginPageTest@6a01e23]" name="tearDown" is-config="true" duration-ms="202" started-at="2020-04-05T01:14:59Z" finished-at="2020-04-05T01:14:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.codenbox.MavenProject.LoginPageTest -->
+    </test> <!-- Validating login -->
+  </suite> <!-- Suite -->
+</testng-results>

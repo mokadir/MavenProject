@@ -1,3 +1,4 @@
-pageObjects\LoginPage.class
 resources\Base.class
 pageObjects\LandingPage.class
+pageObjects\LoginPage.class
+resources\ExtentReporterNG.class

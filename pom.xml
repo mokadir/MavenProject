@@ -8,6 +8,8 @@
 	<groupId>com.codenbox</groupId>
 	<artifactId>MavenProject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	
 
 	<name>MavenProject</name>
 	<!-- FIXME change it to the project's website -->
@@ -31,7 +33,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
-				<version>3.0.0-M3</version>
+				<version>3.0.0-M4</version>
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
@@ -51,7 +53,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>3.141.5</version>
+			<version>3.141.59</version>
 		</dependency>
 		<dependency>
 			<groupId>org.testng</groupId>
