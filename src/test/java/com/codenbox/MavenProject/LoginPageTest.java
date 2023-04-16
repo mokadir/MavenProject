@@ -2,6 +2,7 @@ package com.codenbox.MavenProject;
 
 import java.io.IOException;
 
+import org.openqa.selenium.Keys;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
@@ -25,13 +26,15 @@ public class LoginPageTest extends Base {
 	public void basePageNavigation(String Username, String Password) throws IOException, InterruptedException {
 		LandingPage l = new LandingPage(driver);
 		// log.debug("Click on login button");
-		l.getLogin().click();
+		//l.getLogin().click();
+		l.getLogin().sendKeys(Keys.ENTER);
 		// log.info("Navigate to login page");
 		Thread.sleep(8000L);
 		LoginPage lp = new LoginPage(driver);
 		lp.getEmail().sendKeys(Username);
 		lp.getPassword().sendKeys(Password);
-		lp.getLogin().click();
+		//lp.getLogin().click();
+		lp.getLogin().sendKeys(Keys.ENTER);
 	}
 
 	@AfterMethod

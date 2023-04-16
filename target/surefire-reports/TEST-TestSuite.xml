@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="1" name="TestSuite" time="15.949" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="TestSuite" time="29.313" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_341\jre\bin"/>
-    <property name="java.vm.version" value="25.341-b10"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="java.vm.version" value="25.221-b11"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="maven.multiModuleProjectDirectory" value="C:\Users\mskad\OneDrive\IT\SeleniumTraining\SeleniumProject\MavenProject"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -17,19 +17,19 @@
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\Users\mskad\OneDrive\IT\SeleniumTraining\SeleniumProject\MavenProject"/>
-    <property name="java.runtime.version" value="1.8.0_341-b10"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_341\jre\lib\endorsed"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\mskad\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 11"/>
-    <property name="classworlds.conf" value="C:\Users\mskad\OneDrive\IT\SeleniumTraining\SeleniumProject\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6140961817248878073.tmp"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\mskad\OneDrive\IT\SeleniumTraining\SeleniumProject\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf632106757600761249.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_341\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_341/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_341/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_341/bin/../jre/lib/amd64;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\mskad\OneDrive\IT\Seneca CPD\~PRO 690 V1A Tue 630\Terraform;C:\Program Files\Java\jdk1.8.0_341\bin;C:\Program Files\Java\jdk-11.0.16.1\bin;C:\Users\mskad\OneDrive\IT\Seneca CPD\~PRO 690 V1A Tue 630\Minikube k8s;C:\Program Files\Docker\Docker\resources\bin;C:\Users\mskad\OneDrive\IT\IT Apps\Code Editors\mingw-w64\mingw64\bin;C:\Users\mskad\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\mskad\AppData\Local\Programs\Python\Python311\;C:\Users\mskad\AppData\Local\Microsoft\WindowsApps;C:\Users\mskad\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.1\bin;;C:\Users\mskad\AppData\Roaming\npm;C:\Users\mskad\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\system32;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.16.1/bin/server;C:/Program Files/Java/jdk-11.0.16.1/bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\mskad\OneDrive\IT\Seneca CPD\~PRO 690 V1A Tue 630\Terraform;C:\Program Files\Java\jdk-11.0.16.1\bin;C:\Program Files\Java\jdk1.8.0_341\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Users\mskad\OneDrive\IT\Seneca CPD\~PRO 690 V1A Tue 630\Minikube k8s;C:\Program Files\Docker\Docker\resources\bin;C:\Users\mskad\OneDrive\IT\IT Apps\Code Editors\mingw-w64\mingw64\bin;C:\Users\mskad\OneDrive\IT\SeleniumTraining\Automation file Downloads\Maven\apache-maven-3.6.3\bin;C:\Users\mskad\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\mskad\AppData\Local\Programs\Python\Python311\;C:\Users\mskad\AppData\Local\Microsoft\WindowsApps;C:\Users\mskad\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.1\bin;;C:\Users\mskad\AppData\Roaming\npm;C:\Users\mskad\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\system32;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -43,15 +43,15 @@
     <property name="java.class.path" value="C:\Users\mskad\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923\jars\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_341\jre"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_341"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_341\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_341\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_341\jre\classes"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="maven.home" value="C:\Users\mskad\OneDrive\IT\SeleniumTraining\SeleniumProject\MavenProject\EMBEDDED"/>
     <property name="file.separator" value="\"/>
@@ -61,54 +61,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.codenbox.MavenProject.LoginPageTest" name="basePageNavigation" time="1.25">
-    <failure message="element click intercepted: Element &lt;a rel=&quot;nofollow&quot; href=&quot;https://codenboxautomationlab.com/wp-login.php&quot;&gt;...&lt;/a&gt; is not clickable at point (791, 1267). Other element would receive the click: &lt;iframe id=&quot;aswift_0&quot; name=&quot;aswift_0&quot; style=&quot;width: 1005px !important; height: 124px !important; display: block; margin: 0px auto;&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; width=&quot;1005&quot; height=&quot;124&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; vspace=&quot;0&quot; hspace=&quot;0&quot; allowtransparency=&quot;true&quot; scrolling=&quot;no&quot; src=&quot;https://googleads.g.doubleclick.net/pagead/html/r20230412/r20110914/zrt_lookup.html?fsb=1#RS-0-&amp;amp;adk=1812271801&amp;amp;client=ca-pub-1974398531910611&amp;amp;fa=1&amp;amp;ifi=1&amp;amp;uci=a!1&amp;amp;btvi=1&amp;amp;xpc=074RxMYo1b&amp;amp;p=https%3A//codenboxautomationlab.com&quot; data-google-container-id=&quot;a!1&quot; data-google-query-id=&quot;CJXMkbjGrv4CFU_2ZAod0IMIOA&quot; data-load-complete=&quot;true&quot;&gt;&lt;/iframe&gt;
-  (Session info: chrome=111.0.5563.147)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;KADIRXPS&apos;, ip: &apos;192.168.2.224&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_341&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\mskad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51324}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b7eea9bcd7b9fc4d32f21dac40703bd5" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a rel=&quot;nofollow&quot; href=&quot;https://codenboxautomationlab.com/wp-login.php&quot;&gt;...&lt;/a&gt; is not clickable at point (791, 1267). Other element would receive the click: &lt;iframe id=&quot;aswift_0&quot; name=&quot;aswift_0&quot; style=&quot;width: 1005px !important; height: 124px !important; display: block; margin: 0px auto;&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; width=&quot;1005&quot; height=&quot;124&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; vspace=&quot;0&quot; hspace=&quot;0&quot; allowtransparency=&quot;true&quot; scrolling=&quot;no&quot; src=&quot;https://googleads.g.doubleclick.net/pagead/html/r20230412/r20110914/zrt_lookup.html?fsb=1#RS-0-&amp;amp;adk=1812271801&amp;amp;client=ca-pub-1974398531910611&amp;amp;fa=1&amp;amp;ifi=1&amp;amp;uci=a!1&amp;amp;btvi=1&amp;amp;xpc=074RxMYo1b&amp;amp;p=https%3A//codenboxautomationlab.com&quot; data-google-container-id=&quot;a!1&quot; data-google-query-id=&quot;CJXMkbjGrv4CFU_2ZAod0IMIOA&quot; data-load-complete=&quot;true&quot;&gt;&lt;/iframe&gt;
-  (Session info: chrome=111.0.5563.147)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;KADIRXPS&apos;, ip: &apos;192.168.2.224&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_341&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\mskad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51324}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b7eea9bcd7b9fc4d32f21dac40703bd5
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at com.codenbox.MavenProject.LoginPageTest.basePageNavigation(LoginPageTest.java:28)
-</failure>
-    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@6d86b085
-</system-out>
-    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 48053
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Apr 16, 2023 9:53:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 62198
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Apr 16, 2023 9:53:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-</system-err>
-  </testcase>
-  <testcase classname="com.codenbox.MavenProject.NavigationBarTest" name="basePageNavigationBar" time="0.111"/>
-  <testcase classname="com.codenbox.MavenProject.NavigationBarTest" name="dropDownSelect" time="4.238"/>
-  <testcase classname="com.codenbox.MavenProject.ValidTitleTest" name="basePageTitle" time="10.35"/>
+  <testcase classname="com.codenbox.MavenProject.LoginPageTest" name="basePageNavigation" time="9.474"/>
+  <testcase classname="com.codenbox.MavenProject.NavigationBarTest" name="basePageNavigationBar" time="0.058"/>
+  <testcase classname="com.codenbox.MavenProject.NavigationBarTest" name="dropDownSelect" time="4.162"/>
+  <testcase classname="com.codenbox.MavenProject.ValidTitleTest" name="basePageTitle" time="15.619"/>
 </testsuite>

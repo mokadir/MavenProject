@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
-              <span class="suite-name border-failed">Command line suite</span>
+              <span class="suite-name border-passed">Command line suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
-                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Command_line_suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.codenbox.MavenProject.LoginPageTest" hash-for-method="basePageNavigation(test@test.com, 123456)">basePageNavigation(test@test.com, 123456)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Command_line_suite -->
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -114,6 +100,11 @@
                       <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
                     </span>
                     <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.codenbox.MavenProject.LoginPageTest" hash-for-method="basePageNavigation(test@test.com, 123456)">basePageNavigation(test@test.com, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.codenbox.MavenProject.NavigationBarTest" hash-for-method="basePageNavigationBar">basePageNavigationBar</a> <!-- method navigator-link -->
@@ -141,9 +132,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
-          <div class="suite-Command_line_suite-class-failed">
+          <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.codenbox.MavenProject.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -153,28 +144,10 @@
                   </a> <!-- basePageNavigation(test@test.com, 123456) -->
                   <span class="method-name">basePageNavigation</span>
                   <span class="parameters">(test@test.com, 123456)</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a rel=&quot;nofollow&quot; href=&quot;https://codenboxautomationlab.com/wp-login.php&quot;&gt;...&lt;/a&gt; is not clickable at point (791, 1267). Other element would receive the click: &lt;iframe id=&quot;aswift_0&quot; name=&quot;aswift_0&quot; style=&quot;width: 1005px !important; height: 124px !important; display: block; margin: 0px auto;&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; width=&quot;1005&quot; height=&quot;124&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; vspace=&quot;0&quot; hspace=&quot;0&quot; allowtransparency=&quot;true&quot; scrolling=&quot;no&quot; src=&quot;https://googleads.g.doubleclick.net/pagead/html/r20230412/r20110914/zrt_lookup.html?fsb=1#RS-0-&amp;amp;adk=1812271801&amp;amp;client=ca-pub-1974398531910611&amp;amp;fa=1&amp;amp;ifi=1&amp;amp;uci=a!1&amp;amp;btvi=1&amp;amp;xpc=074RxMYo1b&amp;amp;p=https%3A//codenboxautomationlab.com&quot; data-google-container-id=&quot;a!1&quot; data-google-query-id=&quot;CJXMkbjGrv4CFU_2ZAod0IMIOA&quot; data-load-complete=&quot;true&quot;&gt;&lt;/iframe&gt;
-  (Session info: chrome=111.0.5563.147)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;KADIRXPS&apos;, ip: &apos;192.168.2.224&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_341&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\mskad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51324}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b7eea9bcd7b9fc4d32f21dac40703bd5
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at com.codenbox.MavenProject.LoginPageTest.basePageNavigation(LoginPageTest.java:28)
-... Removed 39 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-failed -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -269,24 +242,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'basePageTitle')
 data.setCell(0, 2, 'com.codenbox.MavenProject.ValidTitleTest')
-data.setCell(0, 3, 10350);
+data.setCell(0, 3, 15619);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'dropDownSelect')
-data.setCell(1, 2, 'com.codenbox.MavenProject.NavigationBarTest')
-data.setCell(1, 3, 4239);
+data.setCell(1, 1, 'basePageNavigation')
+data.setCell(1, 2, 'com.codenbox.MavenProject.LoginPageTest')
+data.setCell(1, 3, 9472);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'basePageNavigation')
-data.setCell(2, 2, 'com.codenbox.MavenProject.LoginPageTest')
-data.setCell(2, 3, 1234);
+data.setCell(2, 1, 'dropDownSelect')
+data.setCell(2, 2, 'com.codenbox.MavenProject.NavigationBarTest')
+data.setCell(2, 3, 4162);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'basePageNavigationBar')
 data.setCell(3, 2, 'com.codenbox.MavenProject.NavigationBarTest')
-data.setCell(3, 3, 110);
+data.setCell(3, 3, 58);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 29 seconds</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -322,49 +295,47 @@ return data;
               <div class="chronological-class-name">com.codenbox.MavenProject.NavigationBarTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">16203 ms</span>
+                <span class="method-start">8676 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.codenbox.MavenProject.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">basePageNavigation(test@test.com, 123456)</span>
-                <span class="method-start">21120 ms</span>
+                <span class="method-start">19995 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">22362 ms</span>
+                <span class="method-start">29468 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.codenbox.MavenProject.NavigationBarTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">basePageNavigationBar</span>
-                <span class="method-start">22609 ms</span>
+                <span class="method-start">29571 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">dropDownSelect</span>
-                <span class="method-start">22720 ms</span>
+                <span class="method-start">29629 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.codenbox.MavenProject.ValidTitleTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">basePageTitle</span>
-                <span class="method-start">26959 ms</span>
+                <span class="method-start">33792 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">37309 ms</span>
+                <span class="method-start">49411 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.codenbox.MavenProject.NavigationBarTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">37409 ms</span>
+                <span class="method-start">49516 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
