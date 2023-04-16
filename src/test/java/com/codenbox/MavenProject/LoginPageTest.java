@@ -27,7 +27,7 @@ public class LoginPageTest extends Base {
 		// log.debug("Click on login button");
 		l.getLogin().click();
 		// log.info("Navigate to login page");
-		Thread.sleep(5000L);
+		Thread.sleep(8000L);
 		LoginPage lp = new LoginPage(driver);
 		lp.getEmail().sendKeys(Username);
 		lp.getPassword().sendKeys(Password);

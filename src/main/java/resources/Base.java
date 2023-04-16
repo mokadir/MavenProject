@@ -13,6 +13,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Base {
 
 	public WebDriver driver;
@@ -23,16 +25,18 @@ public class Base {
 
 		prop = new Properties();
 		FileInputStream fis = new FileInputStream(
-				"C:\\Users\\reazb\\Desktop\\SeleniumTraining\\MavenProject\\MavenProject\\src\\main\\java\\resources\\data.properties");
+				"C:\\Users\\mskad\\OneDrive\\IT\\SeleniumTraining\\SeleniumProject\\MavenProject\\src\\main\\java\\resources\\data.properties");
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
 		if (browserName.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver",
-					"C:\\Users\\reazb\\Desktop\\SeleniumTraining\\SeleniumProject\\chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver",
+			//		"C:\\Users\\mskad\\OneDrive\\IT\\SeleniumTraining\\SeleniumProject\\chromedriver.exe");
+			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 		} else if (browserName.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.gecko.driver",
-					"C:\\Users\\reazb\\Desktop\\SeleniumTraining\\SeleniumProject\\geckodriver.exe");
+//			System.setProperty("webdriver.gecko.driver",
+//					"C:\\Users\\mskad\\OneDrive\\IT\\SeleniumTraining\\SeleniumProject\\geckodriver.exe");
+			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		}
 
@@ -48,7 +52,7 @@ public class Base {
 		File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		// copy the file from src and put in your local machine with the name of failed
 		// test class
-		FileUtils.copyFile(srcFile, new File("C://screenshotTest//" + result + "screenshot.png"));
+		FileUtils.copyFile(srcFile, new File("C:\\Users\\mskad\\OneDrive\\IT\\SeleniumTraining\\SeleniumProject\\screenshotTest\\" + result + "screenshot.png"));
 	}
 
 }

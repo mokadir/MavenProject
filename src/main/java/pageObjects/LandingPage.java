@@ -10,7 +10,7 @@ public class LandingPage {
 
 	By navbar = By.xpath("//*[@id='primary-menu']"); // Home page header navigation
 	By title = By.xpath("//*[@id='post-501']/header/h1"); // title for Automation Practice
-	By login = By.xpath("//a[contains(text(),'Log in')]"); // Login Button
+	By login = By.xpath("//div[@id='meta-4']/ul/li[1]/a"); // Login Button
 	By dropDown = By.xpath("//select[@id='dropdown-class-example']"); // dropdown example web element
 
 	public LandingPage(WebDriver driver) {
