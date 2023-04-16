@@ -9,7 +9,7 @@ public class LoginPage {
 	public WebDriver driver;
 	By email = By.cssSelector("input#user_login");
 	By password = By.xpath("//input[@id='user_pass']");
-	By login = By.id("wp-submit");
+	By login = By.xpath("//input[@value='Log In']");
 
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
